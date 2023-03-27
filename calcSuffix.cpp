@@ -8,6 +8,20 @@ double calcSuffix::CalculateSuffix(const std::string &str, myCalculate mc) {
     std::stack<double> sta;
 
     for (char op: str) {
+
+//        while (op >= 0 && op <= 9 || op == '.') {
+//            int arr[10] = {1};
+//            double realNumber = 0;
+//
+//            for (int i = 0; i < str.length(); ++i) {
+//                arr[i + 1] = arr[i] * 10;
+//            }
+//
+//            for (int i = 0; i < str.length(); ++i) {
+//                realNumber += arr[str.length() - i - 1] * int(str[i] - '0');
+//            }
+//        }
+
         switch (op) {
             case '+': {
                 double num2 = sta.top();

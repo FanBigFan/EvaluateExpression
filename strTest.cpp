@@ -11,6 +11,7 @@ std::string strTest::testStr() {
 //    return "(a+b)-a*c";
 //    return "2^3";
 //    return "$!@#!$#@%$#%@@$^";
+//    return "1+2.3+1";
     return "2*(1+2)/(3-1)+4!+2^3+4*3+3!";
     return "22+1";
 }
